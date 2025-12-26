@@ -1,4 +1,57 @@
 /* Los estilos se aplican a todo el documento */
 body {
-    
+    background-color: #09be8b;
+    background-image: linear-gradient(135deg, rgba(9,190,139,0.25), rgba(62,121,200,0.25)), url('../assets/images/luns.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#header{
+    text-align: center;
+    border: 2px dotted black;
+    width: 500px;
+    height: auto;
+    margin: 20px;
+}
+#sobre-mi{
+    background-color: rgba(168, 99, 30, 0.568);
+    border: 2px dotted black;
+    width: 500px;
+    height: auto;
+    margin: 20px;
+}
+#imagen-yo {
+    box-shadow: 0 4px 8px 0 rgb(12, 11, 7);
+}
+#habilidades{
+    background-color: rgba(168, 99, 30, 0.568);
+    border: 2px dotted black;
+    width: 500px;
+    height: auto;
+    margin: 20px;  
+}
+#estudios{
+  background-color: rgba(30, 168, 168, 0.412);
+    border: 2px dotted black;
+    width: 500px;
+    height: auto;
+    margin: 20px;    
+}
+#hobbies{
+   background-color: rgba(30, 168, 168, 0.412);
+    border: 2px dotted black;
+    width: 500px;
+    height: auto;
+    margin: 20px;    
+}
+#redes-sociales{
+   background-color: rgba(30, 168, 168, 0.412);
+    border: 2px dotted black;
+    width: 500px;
+    height: auto;
+    margin: 20px;
 }
